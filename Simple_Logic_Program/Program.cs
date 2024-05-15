@@ -8,6 +8,8 @@ namespace Simple_Logic_Program
         {
             WordCount wordCount = new WordCount();
             MaxNumber maxNumber = new MaxNumber();
+            SortAscending sortAscending = new SortAscending();
+            MostShowLetter mostShowLetter = new MostShowLetter();
 
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~");
             Console.WriteLine(" 1. Word Counting  ");
@@ -19,7 +21,16 @@ namespace Simple_Logic_Program
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~");
             maxNumber.run();
 
-            //Console.WriteLine("Hello, World!");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~");
+            Console.WriteLine(" 3. Sort Ascending  ");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~");
+            sortAscending.run();
+
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~");
+            Console.WriteLine(" 4. Most Frequently Occurring Letters ");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~");
+            mostShowLetter.run();
+
         }
     }
 }

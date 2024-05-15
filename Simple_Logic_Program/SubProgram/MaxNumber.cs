@@ -13,7 +13,7 @@ namespace Simple_Logic_Program.SubProgram
             int[] data = [1,5,3,7,2];
             int max = searchMaxValue(data);
             Console.Write("Max value from [ " + String.Join(",", data) + " ] ");
-            Console.Write("is : " + max);
+            Console.WriteLine("is : " + max);
         }
 
         private int searchMaxValue(int[] numbers)
